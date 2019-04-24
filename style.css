@@ -1,0 +1,216 @@
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background: #689cd2;
+	color: #fff;
+	font-family: helvetica;
+}
+.header_section{
+	display: flex;
+	align-items: center;
+}
+.header_item{
+	padding: 15px 50px;
+	font-size: 20px;
+	margin-left: 5px;
+}
+.header_item:hover{
+	background-color: #ff9900;
+	border-radius: 4px;
+}
+.headerLogo{
+	font-weight: bold;
+}
+.headerButton{
+	cursor: pointer;
+}
+
+
+img{
+	max-width: 100%;
+}
+body{
+	font-size: 17px;
+	line-height: 1.4;
+}
+*{
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: linear;;	
+}
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	padding: 1.5%;
+	box-sizing: border-box;
+}
+
+.card{
+	position: relative;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	background: #363636;
+	text-decoration: none;
+	box-shadow: rgba(0,0,0,0,0.19) 0 0 8px 0;
+    border-radius: 4px;
+}
+@media(max-width: 600px){
+.card{
+	width: 100%;
+}
+}
+@media(min-width: 700px){
+	.card{
+		max-width: 320px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+}
+.card span{
+	display: block;
+}
+.card .card-summary{
+	padding: 5% 5% 3% 5%;
+}
+.card .card-header{
+	position: relative;
+	height: 175px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(225,225,255,0.15);
+	background-blend-mode: overlay;
+	border-radius: 4px 4px 0 0;
+}
+.card .car-header:hover, .card .card-header:focus{
+    background-color: rgba(225,225,255,0);  
+}
+.card .card-title{
+	 background: rgba(104,156,210,0.85);
+	 padding: 3.5% 0 2.5% 0;
+	 color: white;
+	 text-transform: uppercase;
+	 position: absolute;
+	 bottom: 0;
+	 width: 100%;
+}
+.card .card-title h3{
+	font-size: 1.2em;
+	line-height: 1.2;
+	padding: 0 3.5%;
+	margin: 0;
+}
+.card .card-meta{
+	max-height: 0;
+	overflow: hidden;
+	color: #666;
+	font-size: .78em;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 5%;
+	padding: 0 5%;
+	transition-property: max-height;
+	transition-delay: 0.4s;
+	transition-timing-function: ease-in-out;
+}
+.card:hover, .card:focus{
+	background: white;
+	box-shadow: rgba(0,0,0,0.45) 0px 0px 20px 0px;
+}
+.card:hover .card-title, .card:focus .card-title{
+	background: rgba(104,156,210,0.95);
+}
+.card:hover .card-meta, .card:focus .card-meta{
+	max-height: 1em;
+}
+.footer{
+	display: flex;
+	background: #689cd2;
+	height: 100px;
+
+}
+
+
+.Shapka{
+	background:white;
+	background-image: url(https://regnum.ru/uploads/pictures/news/2018/11/30/regnum_picture_1543581460409720_big.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	padding:10px;
+
+	height: 100vh;
+	
+	color: #fff;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.header__title{
+	font-size: 56px;
+	line-height: 62px;
+	font-family: 'Merriweather', serif;
+    margin-top: -50px;
+
+}
+
+.header__slogan{
+	font-size: 28px;
+	line-height: 42px;
+}	
+
+
+.kontakts a{
+	color: red;
+
+}
+/* single page */
+.politica-single-page{
+
+}
+
+.button-back{
+	font-weight: 700;
+	text-transform: none;
+	color: #961634;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+
+	display: inline-block;
+
+	border-width: 2px;
+	border-color: #961634;
+	border-style: solid;
+	border-radius: 50px;
+
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 23px;
+	padding-right: 23px;
+
+	margin-bottom: 13px;
+
+	transition: 0.2 ease-out;
+}
+
+.button-back:hover {
+	color: #fff;
+	background-color: #961634;
+
+}
